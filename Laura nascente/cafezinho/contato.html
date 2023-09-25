@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato </title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body background = "imagens/fundocafe.png">
+    <header>
+      <div class="caixa">
+        <h1>
+          <a id="userLink" href="sobre.html" target="_blank">
+          <a href="sobre.html"> <img src="imagens/coffeelogo.png" alt="index.html" width ="225" /></a>
+          </a>
+          </h1>
+        <nav>
+          <ul>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="cadastro.html">Cadastro</a></li>
+    
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="formularioContato">
+        
+        <form action="#" method="post" enctype="multipart/form-data">
+
+            <label>
+                <span><i class="icon icon-user-1"></i> Nome</span>
+                <input type="text" name="nome" required="">
+            </label>
+            
+            <label>
+                <span><i class="icon icon-email"></i> E-mail</span>
+                <input type="text" name="email" class="fade_8S">
+            </label>
+
+            <label>
+                <span><i class="icon icon-flag"></i> Assunto</span>
+                <input type="text" name="assunto" required="">
+            </label>
+            
+            <label>
+                <span><i class="icon icon-comment"></i> Mensagem</span>
+                 <textarea name="mensagem" rows="3" required=""></textarea> 
+            </label>
+           
+            <input type="hidden" name="acao" value="enviar" />
+            <button class="btn-envia" title="Enviar"><b class="icon icon-paper-plane-o"> Enviar</b></button>
+
+        
+        </form>
+
+    </div>
+    </main>
+ 
+  </body>
+</html>
